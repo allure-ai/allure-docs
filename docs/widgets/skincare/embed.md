@@ -1,12 +1,4 @@
-# Skincare Analyzer Widget
-
-The Skincare Analyzer widget is used to analyze user's selfie photo and preferences, and assigns a suitability score to each product sold in a retail store or e-commerce website.
-
-## Setting up Widget Placement
-The placement of a widget is identified by its Placement ID obtained from the Business Suite Dashboard. To obtain access to our Business Suite Dashboard, contact us.
-
-
-## Embedding the Widget to a Web Page
+# Embedding the Widget to a Web Page
 
 The widget can be embedded as a part of your own web page, similar to an embedded YouTube video. You can embed the widget using the following embed script:
 

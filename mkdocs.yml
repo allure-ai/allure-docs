@@ -11,3 +11,18 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+nav:
+  - 'Dashboard':
+    - 'dashboard/index.md'
+  - 'Widgets':
+    - 'Skincare Analyzer': 
+      - 'Introduction': 'widgets/skincare/index.md'
+      - 'widgets/skincare/configure.md'
+      - 'widgets/skincare/embed.md'
+    - 'AR Makeup Try-on': 
+      - 'Introduction': 'widgets/ar-makeup/index.md'
+    - 'Foundation Shade Finder':
+      - 'Introduction': 'widgets/foundation/index.md'
+    - 'Main Menu':
+      - 'Introduction': 'widgets/menu/index.md'
