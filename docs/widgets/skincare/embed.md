@@ -70,6 +70,10 @@ const onAnalysisComplete = (analysis) => {
 | `skinSensitivityVerdict` | `string`        | Skin sensitivity, enum: `SENSITIVE` or `RESISTANT`                                                                                                                                                    |
 | `skinOilinessVerdict`    | `string`        | Skin oiliness, enum: `DRY`, `NORMAL`, or `OILY`                                                                                                                                                       |
 | `skinGoals`              | `Array<string>` | Skin goals, enum: `BRIGHTENING`, `FIGHTING_ACNE`, `FIGHTING_AGING`, `IMPROVING_SKIN_TEXTURE`, `REMOVING_ACNE_MARKS`, `REMOVING_COMEDO`, `SKIN_FEELS_DRY`, `SKIN_LOOKS_DULL`, or `SUNLIGHT_PROTECTION` |
+| `specialPreferences`     | `Array<string>` | Special preferences, enum: `PARABEN_FREE`, `CRUELTY_FREE`, `HALAL_PREFERENCE`, `PREGNANT` |
+| `minBudget`              | `number`        | Minimum budget in IDR |
+| `maxBudget`              | `number`        | Maximum budget in IDR |
+| `contact`                | `Contact`       | Contact information payload |
 
 #### `FacialCheck` Payload
 
@@ -85,6 +89,13 @@ const onAnalysisComplete = (analysis) => {
 #### Product Suitability Payload
 
 The `productSuitability` payload contains an array of pairs. The first element of the pair is the Article No, and the second element is the match score. It is sorted descending by score.
+
+#### Contact Payload
+
+| Key          | Type     | Description             |
+|--------------|----------|-------------------------|
+| `name`       | `string` | Contact name.           |
+
 
 #### Example Payload
 
