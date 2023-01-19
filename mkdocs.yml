@@ -1,6 +1,7 @@
 site_name: Allure AI Documentation
 theme:
   name: material
+  logo: assets/logo.svg
   font:
     text: Nunito Sans
 extra_css:
@@ -26,3 +27,5 @@ nav:
       - 'Introduction': 'widgets/foundation/index.md'
     - 'Main Menu':
       - 'Introduction': 'widgets/menu/index.md'
+  - 'Business Suite API':
+    - 'API Reference': 'https://api-business-docs.allure.id/'

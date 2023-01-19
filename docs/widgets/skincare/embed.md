@@ -30,9 +30,18 @@ This callback will be invoked when the user clicks on the CTA button. The callba
 
 ```js
 const onProductCtaClicked = (product) => {
-    const {}
+    console.log(product)
 }
 ```
+
+#### Product Payload
+
+| Key         | Type                  | Description                                             |
+|-------------|-----------------------|---------------------------------------------------------|
+| `articleNo` | `string`              | Allure Article Number (AAN) for the product.            |
+| `skuNo`     | `string | undefined` | Custom SKU number as defined in a Product Override Set. |
+| `name`      | `string`              | Product name (without brand name).                      |
+| `brandName` | `string`              | Brand name.                                             |
 
 ### Analysis complete callback
 This callback will be invoked when the analysis flow is complete. The callback shall have the following signature:
