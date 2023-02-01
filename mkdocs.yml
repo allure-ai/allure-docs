@@ -30,3 +30,10 @@ nav:
       - 'Introduction': 'widgets/menu/index.md'
   - 'Business Suite API':
     - 'API Reference': 'https://api-business-docs.allure.id/'
+  - 'SDK':
+    - 'Node.js': 
+      - 'Setup': 'sdk/node/index.md'
+      - 'Beauty Product Database': 'sdk/node/bpd.md'
+      - 'Facial Check Service': 'sdk/node/facial-check-service.md'
+      - 'Product Suitability Service': 'sdk/node/product-suitability-service.md'
+      - 'Widget Service': 'sdk/node/widget-service.md'
