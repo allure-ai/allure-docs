@@ -24,10 +24,13 @@ nav:
       - 'widgets/skincare/embed.md'
     - 'AR Makeup Try-on': 
       - 'Introduction': 'widgets/ar-makeup/index.md'
+      - 'widgets/ar-makeup/embed.md'
     - 'Foundation Shade Finder':
       - 'Introduction': 'widgets/foundation/index.md'
+      - 'widgets/foundation/embed.md'
     - 'Main Menu':
       - 'Introduction': 'widgets/menu/index.md'
+      - 'widgets/menu/embed.md'
   - 'Business Suite API':
     - 'API Reference': 'https://api-business-docs.allure.id/'
   - 'SDK':
