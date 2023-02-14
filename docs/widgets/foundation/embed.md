@@ -7,7 +7,7 @@ The widget can be embedded as a part of your own web page, similar to an embedde
 <div id="allure-embed-foundationfinder"></div>
 <script>
     var widgetOptions = {
-      key: '[widget placement ID]'
+      placementId: '[widget placement ID]'
     }
     new AllureFoundationShadeFinderWidget(widgetOptions).render(document.getElementById('allure-embed-foundationfinder'));
 </script>

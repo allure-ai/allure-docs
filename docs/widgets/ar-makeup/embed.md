@@ -7,7 +7,7 @@ The widget can be embedded as a part of your own web page, similar to an embedde
 <div id="allure-embed-armakeup"></div>
 <script>
     var widgetOptions = {
-      key: '[widget placement ID]'
+      placementId: '[widget placement ID]'
     }
     new AllureARMakeupTryonWidget(widgetOptions).render(document.getElementById('allure-embed-armakeup'));
 </script>
