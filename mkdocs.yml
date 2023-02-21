@@ -22,6 +22,7 @@ nav:
       - 'Introduction': 'widgets/skincare/index.md'
       - 'widgets/skincare/configure.md'
       - 'widgets/skincare/embed.md'
+      - 'widgets/skincare/embed-legacy.md'
     - 'AR Makeup Try-on': 
       - 'Introduction': 'widgets/ar-makeup/index.md'
       - 'widgets/ar-makeup/embed.md'

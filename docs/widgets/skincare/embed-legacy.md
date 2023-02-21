@@ -1,15 +1,15 @@
-# Embedding the Widget to a Web Page
+# Embedding the Widget to a Web Page (Legacy)
 
 The widget can be embedded as a part of your own web page, similar to an embedded YouTube video. You can embed the widget using the following embed script:
 
 ```html
-<script type="text/javascript" src="https://business.allure.id/scripts/embed/skincareanalyzer.js"></script>
-<div id="allure-embed-skincareanalyzer"></div>
+<script type="text/javascript" src="https://embed.allure.id/scripts/embed/skinanalyzer.js"></script>
+<div id="allure-embed"></div>
 <script>
     var widgetOptions = {
-      placementId: '[widget placement ID]'
+      key: '[widget placement ID]'
     }
-    new AllureSkincareAnalyzerWidget(widgetOptions).render(document.getElementById('allure-embed-skincareanalyzer'));
+    new AllureSkincareAnalyzerWidget(widgetOptions).render(document.getElementById('allure-embed'));
 </script>
 ```
 
@@ -18,7 +18,7 @@ There are several options you can set to configure the widget behavior.
 
 | Option Name           | Type                 | Description                                                                                          |
 |-----------------------|----------------------|------------------------------------------------------------------------------------------------------|
-| `placementId` (required)      | `string`             | Placement ID of the widget, obtained from Business Suite Dashboard.                                  |
+| `key` (required)      | `string`             | Placement ID of the widget, obtained from Business Suite Dashboard.                                  |
 | `width`               | `number | string`   | Width of the widget, default is "100%"                                                               |
 | `height`              | `number`             | Height of the widget, if unset the height is automatically adjusted according to the widget content. |
 | `productCtaLabel`     | `string`             | Override the buy button text, default is "Beli Produk"                                               |
