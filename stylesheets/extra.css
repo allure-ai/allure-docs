@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    --md-primary-fg-color:        #F07C8A;
+    --md-primary-fg-color--light: #FDECEF;
+    --md-primary-fg-color--dark:  #F07C8A;
+  }
+
+.md-header__title, h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif !important;
+}
