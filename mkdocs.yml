@@ -12,32 +12,39 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
-  - 'index.md'
-  - 'Dashboard':
-    - 'dashboard/index.md'
-  - 'Widgets':
-    - 'Skincare Analyzer': 
-      - 'Introduction': 'widgets/skincare/index.md'
-      - 'widgets/skincare/configure.md'
-      - 'widgets/skincare/embed.md'
-      - 'widgets/skincare/embed-legacy.md'
-    - 'AR Makeup Try-on': 
-      - 'Introduction': 'widgets/ar-makeup/index.md'
-      - 'widgets/ar-makeup/embed.md'
-    - 'Foundation Shade Finder':
-      - 'Introduction': 'widgets/foundation/index.md'
-      - 'widgets/foundation/embed.md'
-    - 'Main Menu':
-      - 'Introduction': 'widgets/menu/index.md'
-      - 'widgets/menu/embed.md'
-  - 'Business Suite API':
-    - 'API Reference': 'https://api-business-docs.allure.id/'
-  - 'SDK':
-    - 'Node.js': 
-      - 'Setup': 'sdk/node/index.md'
-      - 'Beauty Product Database': 'sdk/node/bpd.md'
-      - 'Facial Check Service': 'sdk/node/facial-check-service.md'
-      - 'Product Suitability Service': 'sdk/node/product-suitability-service.md'
-      - 'Widget Service': 'sdk/node/widget-service.md'
+  - "index.md"
+  - "Dashboard":
+      - "dashboard/index.md"
+  - "Widgets":
+      - "Skincare Analyzer":
+          - "Introduction": "widgets/skincare/index.md"
+          - "widgets/skincare/configure.md"
+          - "widgets/skincare/embed.md"
+          - "widgets/skincare/embed-legacy.md"
+      - "AR Makeup Try-on":
+          - "Introduction": "widgets/ar-makeup/index.md"
+          - "widgets/ar-makeup/embed.md"
+      - "Foundation Shade Finder":
+          - "Introduction": "widgets/foundation/index.md"
+          - "widgets/foundation/embed.md"
+      - "Main Menu":
+          - "Introduction": "widgets/menu/index.md"
+          - "widgets/menu/embed.md"
+  - "Custom Review Source":
+      - "Introduction": "reviews/index.md"
+      - "reviews/configuration.md"
+      - "reviews/endpoint.md"
+  - "Business Suite API":
+      - "API Reference": "https://api-business-docs.allure.id/"
+  - "SDK":
+      - "Node.js":
+          - "Setup": "sdk/node/index.md"
+          - "Beauty Product Database": "sdk/node/bpd.md"
+          - "Facial Check Service": "sdk/node/facial-check-service.md"
+          - "Product Suitability Service": "sdk/node/product-suitability-service.md"
+          - "Widget Service": "sdk/node/widget-service.md"
